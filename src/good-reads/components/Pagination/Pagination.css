@@ -1,0 +1,16 @@
+.pagination-container {
+	display: flex;
+	justify-content: space-between;
+}
+.pagination-text {
+	padding: 10px 10px;
+	color: grey;
+	font: 400 13.3333px Arial;
+	font-style: italic;
+}
+.pagination {
+	display: inline-block;
+}
+.hide-pagination {
+    display: none;
+}

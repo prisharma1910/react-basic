@@ -1,0 +1,44 @@
+.list-title{
+    border-bottom: 2px solid black;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.list-item > button, .list-button {
+    font-size: medium;
+    border: 0;
+    color: grey;
+    margin-left: 1rem;
+}
+
+.list-item > input, .newItem {
+    line-height: 1.5rem;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    margin-left: 1rem;
+    color: darkgrey;
+}
+
+.list-item > span{
+    font-size: large;
+    margin-left: 1rem;
+    line-height: 2rem;
+}
+
+.list-item {
+    padding: 1rem 1rem 1rem 0;
+    margin-left: 1rem;
+    border-bottom: 0.5px solid lightgrey;
+}
+
+.add-item-list{
+    padding: 1rem 1rem 1rem 0;
+    margin-left: 1rem;
+}
+
+.strikethrough{
+    text-decoration-line: line-through;
+}

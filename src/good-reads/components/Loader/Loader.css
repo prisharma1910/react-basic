@@ -1,0 +1,33 @@
+.loader-container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left:  50%;
+}
+.show-loader {
+    display: block !important;
+}
+.hide-loader {
+    display: none !important; 
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
