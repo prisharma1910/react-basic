@@ -44,7 +44,7 @@ react-basic/
        List.css
        List.js
     Components/
-       ListItem.js
+       Item.js
 ```
 
 ## Steps to run project
