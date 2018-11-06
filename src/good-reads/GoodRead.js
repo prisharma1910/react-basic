@@ -56,7 +56,7 @@ class GoodRead extends React.Component {
       page: startPage,
       pages: startPage,
       perPage: perPage,
-      total: perPage,
+      total: null,
       paginationDropdown: startPage,
       loading: false
     };
@@ -105,7 +105,7 @@ class GoodRead extends React.Component {
       page: startPage,
       pages: startPage,
       perPage: perPage,
-      total: perPage,
+      total: null,
       paginationDropdown: startPage,
       loading: false
     })

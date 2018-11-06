@@ -8,7 +8,7 @@ class Pagination extends React.Component {
     onNext = (e) => {
         e.preventDefault();
         const { pages, paginate } = this.props;
-        let {page} = this.props;
+        let { page } = this.props;
         if (page + 1 <= pages) {
             paginate(page + 1);
         }
@@ -16,7 +16,7 @@ class Pagination extends React.Component {
 
     onPrev = (e) => {
         e.preventDefault();
-        let {page} = this.props;
+        let { page } = this.props;
         if (page - 1 >= 1) {
             this.props.paginate(page - 1);
         }
@@ -37,12 +37,11 @@ class Pagination extends React.Component {
         let to = perPage * page;
         let from = to - perPage + 1;
 
-        return (<div className={
-            "pagination-container " + (to ? "" : "hide-pagination")
+        return (<div className={"pagination-container " + (to ? "" : "hide-pagination")
         }>
-            <div className="pagination-text">
-                Showing {from} to {to < total ? to : total} of {total} records
-        </div>
+            { total && total !== '0' && <div className="pagination-text">
+                Showing {from} to {to < total ? to : total} of {total} records 
+        </div>}
             <div>
                 Items per page - <Select
                     name="per_page"

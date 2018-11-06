@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ListItem extends React.Component {
+class Item extends React.Component {
 
     updateStatus = () => {
         this.props.updateStatus(this.props.id);
@@ -43,4 +43,4 @@ class ListItem extends React.Component {
     }
 }
 
-export default ListItem;
+export default Item;
