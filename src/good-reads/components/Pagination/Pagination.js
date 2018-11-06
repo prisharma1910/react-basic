@@ -46,7 +46,7 @@ class Pagination extends React.Component {
             <div>
                 Items per page - <Select
                     name="per_page"
-                    list={[10, 20, 50, 100, 200]}
+                    list={[10, 20, 30]}
                     value={perPage}
                     change={this.props.updatePerPage}
                 />
